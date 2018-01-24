@@ -19,21 +19,21 @@
 // iKroner(1234, "kr.");                        //kalder på functionen
 
 
-function safeMultiply(x, y) {
-    if (x !== undefined && y !== undefined) {   //tjekker om argumenterne har indhold
-        if (isNaN(x) || isNaN(y)) {
-            return 0;
-        }
-        else {
-            return x * y;
-        }
-    }
-    else {
-        return -1;
-    }
-}
-
-console.log(safeMultiply(13))
+// function safeMultiply(x, y) {
+    // if (x !== undefined && y !== undefined) {   //tjekker om argumenterne har indhold
+        // if (isNaN(x) || isNaN(y)) {
+            // return 0;
+        // }
+        // else {
+            // return x * y;
+        // }
+    // }
+    // else {
+        // return -1;
+    // }
+// }
+// 
+// console.log(safeMultiply(13))
 
 
 //  !!!ANONYM FUNCTION!!!
